@@ -10,7 +10,7 @@ import { CBAPage } from './pages/CBAPage';
 
 function AppContent() {
   const { currentPath } = useRouter();
-  /* Testing Git*/
+  /* Testing Git: Second commit and push*/
   const renderPage = () => {
     if (currentPath === '/') return <TeamsPage />;
     if (currentPath.startsWith('/teams/')) return <TeamDetailPage />;
